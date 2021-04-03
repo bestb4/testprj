@@ -2,20 +2,6 @@ package testprj;
 
 public class MainClass {
 public static void main(String[] args) {
-	char c ='a';
-	System.out.println("c="+c);
-	
-	int i = 10;
-	System.out.println("i="+i);
-	
-	double d =10.258;
-	System.out.println("c="+c);
-	
-	boolean b = false;
-	System.out.println("b="+b);
-	
-	String s = "Hello Java World!!";
-	System.out.println("s="+s);
 	
 	//자동(묵시적)형 변환:
 	//작은 공간의 메모리에서 큰 공간의 메모리로 이동
@@ -57,6 +43,37 @@ public static void main(String[] args) {
 	System.out.printf("num2(8진수):%o\n",num2);
 	System.out.printf("num2(16진수):%x\n",num2);
 	
+	
+	//문자
+	System.out.printf("소문자\'%c\'의 대문자는 \'%c\'입니다.\n",'a','A');
+	//문자열
+	System.out.printf("\'%s\'을 대문자로 바꾸면 \'%s\'입니다.\n","java","JAVA");
+	
+	
+	//실수
+	float f=1.23f;
+	System.out.printf("f =%f\n",f);
+	
+	double d=1.23456d;
+	System.out.printf("d =%f\n",d);
+	
+	//서식문자 정렬 기능
+	System.out.printf("%d\n",123);
+	System.out.printf("%d\n",1234);
+	System.out.printf("%d\n",12345);
+	
+	System.out.println();
+	System.out.printf("%5d\n",123);
+	System.out.printf("%5d\n",1234);
+	System.out.printf("%5d\n",12345);
+	
+
+	System.out.println();
+	//서식문자 소수점 제한 기능
+	System.out.printf("%f\n",1.23);
+	System.out.printf("%.0f\n",1.23);
+	System.out.printf("%.2f\n",1.23);
+	System.out.printf("%.3f\n",1.23);
 	
 }
 }
