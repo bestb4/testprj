@@ -75,5 +75,22 @@ public static void main(String[] args) {
 	System.out.printf("%.2f\n",1.23);
 	System.out.printf("%.3f\n",1.23);
 	
+	int x=10;
+	int y=20;
+	//대입연산자
+	System.out.println("x="+x);
+	System.out.println("y="+y);
+	
+	x=y;
+	System.out.println("x="+x);
+	System.out.println("y="+y);
+	
+	x=10; y=20;
+	//산술 연산자
+	System.out.println("x+y="+(x+y));
+	System.out.println("x-y="+(x-y));
+	System.out.println("x*y="+(x*y));
+	System.out.println("x/y="+(x/y));
+	System.out.println("x%y="+(x%y));
 }
 }
