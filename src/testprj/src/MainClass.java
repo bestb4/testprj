@@ -93,7 +93,7 @@ public static void main(String[] args) {
 	System.out.println("x/y="+(x/y));
 	System.out.println("x%y="+(x%y));
 	
-	 v
+	 
 	
 	
 }
