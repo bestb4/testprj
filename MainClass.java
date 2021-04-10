@@ -13,6 +13,7 @@
 //		}
 //	}
 //}
+
 		public class MainClass{
 			public static int[] calculate(int times) {
 				int[] result = new int[9];
@@ -26,7 +27,11 @@
 				System.out.println(result[i]);
 			}
 		}
+			
 		}
+		
+		
+		
 		
 		
 	
