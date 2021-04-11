@@ -1,18 +1,3 @@
-//public class MainClass {
-//	public static int[] calculate(int times) {
-//		int[] result = new int[9];
-//		for(int i=0;i<result.length;i++) {
-//			result[i]=times*(i+1);
-//	}
-//		return result;
-//	}
-//	
-//	public static void print(int[] result) {
-//		for(int i=0;i<result.length;i++){
-//			System.out.println(result[i]);
-//		}
-//	}
-//}
 
 		public class MainClass{
 			public static int[] calculate(int times) {
@@ -31,14 +16,6 @@
 		}
 		
 		
-		
-		
-		
-	
-		
-		
-
-
 	
 	
 	
@@ -107,10 +84,10 @@
 //		i=i+1;
 //	}
 //	
-//	//7단
-//	for(int j =1;j<1000;j++) {
-//		System.out.println(7*j);
-//	}
+	//7단
+	for(int j =1;j<1000;j++) {
+		System.out.println(7*j);
+	}
 	
 //	//8,9단
 //	System.out.println("구구단을 출력할 단은?");
