@@ -89,6 +89,7 @@
 		System.out.println(7*j);
 	}
 	
+	
 //	//8,9단
 //	System.out.println("구구단을 출력할 단은?");
 //	Scanner scanner = new Scanner(System.in);
