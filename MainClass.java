@@ -14,6 +14,9 @@
 		}
 			
 		}
+		for(int j =1;j<1000;j++) {
+			System.out.println(7*j);
+		}
 		
 		
 	
@@ -85,9 +88,6 @@
 //	}
 //	
 	//7´Ü
-	for(int j =1;j<1000;j++) {
-		System.out.println(7*j);
-	}
 	
 	
 //	//8,9´Ü
